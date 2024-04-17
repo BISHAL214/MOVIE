@@ -130,7 +130,7 @@ const Explore = () => {
                         />
                     </div>
                 </div>
-                {loading && <Spinner initial={true} />}
+                {/* {loading && <Spinner initial={true} />} */}
                 {!loading && (
                     <>
                         {data?.results?.length > 0 ? (
@@ -139,7 +139,7 @@ const Explore = () => {
                                 dataLength={data?.results?.length || []}
                                 next={fetchNextPageData}
                                 hasMore={pageNum <= data?.total_pages}
-                                loader={<Spinner />}
+                                
                             >
                                 {data?.results?.map((item, index) => {
                                     if (item.media_type === "person") return;
