@@ -1,0 +1,12 @@
+export {default as Header} from './Header/Header';
+export {default as Footer} from './Footer/Footer'
+export {default as Img} from './LazyLoadImage/Img'
+export {default as ContentWrapper} from './ContentWrapper/ContentWrapper'
+export {default as SwitchTabs} from './SwitchTabs/SwitchTabs'
+export {default as Carousel} from './Carousel/Carousel'
+export {default as CircleRating} from './CircleRating/CircleRating'
+export {default as Genres} from './Genres/Genres'
+export {default as PlayButton} from './PlayButton/PlayButton'
+export {default as VideoPopup} from './VideoPopup/VideoPopup'
+// export {default as Spinner} from './Spinner/Spinner'
+export {default as MovieCard} from './MovieCard/MovieCard'
